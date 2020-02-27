@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  margin: 0pt;
+  padding: 0pt;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
