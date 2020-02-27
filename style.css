@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Open+Sans:700|Raleway:800&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -10,4 +11,45 @@ body, html{
 body{
   display: flex;
   flex-wrap: wrap;
+  color: 	#221f20;
+  background-color: white;
+}
+
+
+body > div{
+  justify-content: space-around;
+}
+
+h4{
+
+}
+
+.upperText{
+  width: 100vw;
+  height: 70vh;
+
+
+}
+.sideBar{
+  width: 33.33vw;
+
+
+
+}
+
+.sideBar span{
+
+  color: rgb(168,169,173);
+
+}
+.sideBar p{
+  font-family: "Nunito Sans";
+
+
+}
+
+.sideBar .figHeading{
+  font-family: "Nunito Sans";
+  font-weight: bold;
+  color: #221f20;
 }
