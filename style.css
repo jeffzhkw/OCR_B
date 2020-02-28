@@ -20,26 +20,34 @@ body > div{
   justify-content: space-around;
 }
 
-h4{
+body > div > div{
+  justify-content: space-around;
+}
 
+h4{
+ font-family: "Nunito Sans";
 }
 
 .upperText{
+
+  margin: 30pt;
+  margin-top: 40pt;
+  display: flex;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
 
 
 }
 .sideBar{
-  width: 33.33vw;
-
-
+  font-size: 16pt;
+  text-align: justify;
+  margin: 30px
 
 }
 
-.sideBar span{
-
+.sideBar .sideBarTitle{
   color: rgb(168,169,173);
+  margin-right: 30px;
 
 }
 .sideBar p{
@@ -48,7 +56,14 @@ h4{
 
 }
 
-.sideBar .figHeading{
+.content p{
+  margin: 30px;
+  text-align: justify;
+  font-size: 20pt;
+  text-indent: 2em;
+}
+
+div span{
   font-family: "Nunito Sans";
   font-weight: bold;
   color: #221f20;
