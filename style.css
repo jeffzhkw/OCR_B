@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Open+Sans:700|Raleway:800|Domine|Kadwa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Open+Sans:700|Raleway:800|EB+Garamond|Kadwa|Lora&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -10,14 +10,17 @@ body, html, p{
 
 body{
   padding:50px;
+  justify-content: center;
+}
+
+.main{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   color: 	#221f20;
   background-color: white;
+
 }
-
-
 
 h4{
   margin: 0pt;
@@ -55,13 +58,18 @@ h4{
   margin: 20px;
   text-indent: 2em;
   width: 75%;
-  font-family: ;
-  font-weight: 0;
+  font-family: "EB Garamond";
+  font-weight: lighter;
+}
+
+.content .figHeading{
+  font-size: 12pt;
+  font-weight: 800;
 }
 
 .illu{
   width: 280px;
-  height: 200px;
+  height: 400px;
   margin-right: 40px;
 }
 
@@ -77,12 +85,18 @@ h4{
 
 }
 #img10{
-  max-width: 700px;
+  max-width: 600px;
   height: auto;
 }
 #img10 img{
-  max-width: 700px;
+  max-width: 650px;
   height: auto;
+}
+#img12 p{
+  width: 90%;
+}
+#img12 img{
+  height: 150px;
 }
 div span{
   font-family: "Nunito Sans";
@@ -116,4 +130,25 @@ div span{
   justify-content: space-around;
   width: 1440px;
   height: 400px;
+}
+
+.footer{
+  width: 1440px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.footer div{
+  margin: 30px;
+}
+
+.footer div .figHeading{
+  font-size: 10px;
+
+}
+
+.footer div span{
+
+
 }
